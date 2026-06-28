@@ -7,6 +7,7 @@ import os
 root = tk.Tk()
 root.title("Legacy Launcher Theme Chooser")
 root.geometry("800x700")
+root.resizable(False, False)
 
 home_dir = os.path.expanduser("~")
 path = None
